@@ -60,7 +60,7 @@ MyProjectDirectory<br>
 
 If you use this tool for your work please make reference to
 
-&nu;DoBe:
+&nu;DoBe: arXiv:2304.05415 [hep-ph]
  
 Additionally, you may consider the underlying works related to
 
