@@ -4,7 +4,7 @@
 
 Users can calculate the expected half-lives, electron spectra, angular correlations between the outgoing electrons and more for any given EFT model based either on the Standard Model EFT (SMEFT) or an Low-Energy EFT (LEFT). To do so, the only inputs required from the user are the Wilson coefficients of the considered EFT model and &nu;DoBe will take care of all subsequent calculations. &nu;DoBe covers all isotopes of experimental interest and includes nuclear matrix elements (NMEs) from the shell model (SM), the interacting boson model (IBM2) and the quasiparticle random phase approximation (QRPA). Additional NMEs can be provided manually by the user if desired.
 
-Please take a look at our documentation [arXiv:......].
+Please take a look at our <a href="https://arxiv.org/abs/2304.05415">documentation</a> [arXiv:2304.05415 [hep-ph]].
 
 We encourage sharing BSM studies that utilize &nu;DoBe. If you want to contribute a BSM analysis feel free to send us a 
 Jupyter notebook to (scholer@mpi-hd.mpg.de) and we will add it to the provided ExampleNotebooks.
