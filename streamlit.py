@@ -37,7 +37,7 @@ import matplotlib
 st.title(r"$\nu$DoBe - Online")
 
 #Contact
-st.markdown('''If you use results of this tool in your scientific work, please add a citation to:  **arxiv:xxxx.xxxx**. <br>
+st.markdown('''If you use results of this tool in your scientific work, please add a citation to:  **<a href="https://arxiv.org/abs/2304.05415">arxiv:2304.05415</a>**. <br>
                For more advanced analyses, you can download the full code from <a href = "https://github.com/OScholer/nudobe">gitHub</a>.<br> 
                You have any suggestions/comments on how to improve the tool?<br> => Contact:<br>
                Oliver Scholer: scholer@mpi-hd.mpg.de<br> 
@@ -224,17 +224,8 @@ if path_option == "Define a model":
         #Variation of Wilson Coefficients
         st.subheader("Vary single Wilson coefficients")
         
-        #hash_dict = {}
-        #for key in LEFT_model.EpsilonWC:
-        #    hash_dict[key] = lambda: None
-        #    
-        #def hash_spines(spines: matplotlib.spines.Spines):
-        #    return [s.color for s in spines]
-        #hash_dict[matplotlib.spines.Spines] = hash_spines
-        #hash_dict[matplotlib.figure.Figure] = hash
-        #hash_dict[0j] = lambda: None
+        
         ##Define Plotting Functions so that a plotting Loop can be generated
-        #@st.cache(allow_output_mutation=True, hash_funcs = hash_dict)
         def plots(plotidx):
             #Plot type
             plotoptions = st.selectbox("Choose additional figures you want to see. These plots take a few seconds...", 
