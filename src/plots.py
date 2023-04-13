@@ -558,7 +558,7 @@ def limits_LEFT(experiments,                 #{label :{half-life, isotope, label
     limits = pd.DataFrame(limits)
     
     if not groups:
-        WC_operator_groups = LEFT_WCs_latex_dict.keys()
+        WC_operator_groups = LEFT_WCs_latex_dict.copy()
 
     else:
         WC_operator_groups = {"m_bb"  : r"$m_{\beta\beta}$", 
