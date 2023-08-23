@@ -1,5 +1,4 @@
 #Streamlit generates the user-interface
-
 import streamlit as st
 
 #Import external tools
@@ -12,12 +11,25 @@ from scipy import integrate
 import base64
 
 #Import nudobe Parts
-from nudobe import EFT
-from nudobe import functions as f
-from nudobe import plots
-from nudobe import constants
+#current working directory as absolute path
+import sys
+import os
+if not hasattr(sys.modules[__name__], '__file__'):
+    __file__ = inspect.getfile(inspect.currentframe())
+    
+#get absolute path of this file
+cwd = os.path.abspath(os.path.dirname(__file__))
+
+sys.path.append(cwd+"/src/")
+#from nudobe 
+import EFT
+#from nudobe 
+import functions as f
+#from nudobe 
+import plots
+#from nudobe 
+import constants
 from constants import *
-#st.write("Hello")
 
 import matplotlib
 
