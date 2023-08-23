@@ -25,7 +25,7 @@ Jupyter notebook to (scholer@mpi-hd.mpg.de) and we will add it to the provided E
 
 <hr>
 <h2> &nu;DoBe - Online</h2>
-We provide a light version of &nu;DoBe online (<a href="https://oscholer-nudobe-streamlit-4foz22.streamlit.app/">Link</a>). This is intended for quick and dirty studies only as the online version tends to be quite slow. We use Streamlit to generate and host the User Interace (UI). Sometimes, this leads to unexpected crashes of the UI which can be resolved by simply rerunning. Still, we suggest using the full downloadable Python tool for publication purposes.
+We provide a light version of &nu;DoBe online (<a href="https://nudobe.streamlit.app/">Link</a>). This is intended for quick and dirty studies only as the online version tends to be quite slow. We use Streamlit to generate and host the User Interace (UI). Sometimes, this leads to unexpected crashes of the UI which can be resolved by simply rerunning. Still, we suggest using the full downloadable Python tool for publication purposes.
 
 <hr>
 <h2> Requirements</h2>
