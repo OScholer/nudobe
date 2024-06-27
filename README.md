@@ -72,6 +72,7 @@ NMEs:
  - Shell Model: arXiv:1804.02105 [nucl-th]
  - QRPA: Phys. Rev. C 91 no. 2, (2015) 024613
  - IBM2: arXiv:2009.10119 [hep-ph]
+ - CDFT: arXiv:2403.17722 [nucl-th]
  
 3rd Party Python Packages:
  - NumPy: Nature 585 no. 7825, (Sept., 2020) 357–362
