@@ -2,4 +2,4 @@ numpy
 scipy
 matplotlib
 pandas
-mpmath
+mpmath == 1.4.0
