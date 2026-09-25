@@ -16,7 +16,7 @@ from constants import *
 
 #use mpmath for hyp1f1 (sadly scipy doesn't allow complex input)
 import mpmath as mp
-mp.dps = 50; mp.pretty = True
+mp.mp.dps = 50; mp.mp.pretty = True
 
 
 #to get files in path
