@@ -80,6 +80,15 @@ NMEs:
  - Pandas: https://doi.org/10.5281/zenodo.4067057, https://doi.org/10.25080/Majora-92bf1922-00a
  - Matplotlib: Computing in Science & Engineering 9 no. 3, (2007) 90–95.
  - mpmath: http://mpmath.org/
+
+<b>nuDoBe 2.0 in preparation:</b>
+ - Meson Decays
+ - Full 3-gen flavor mixing RGEs
+   
+See our related papers:
+ - https://arxiv.org/abs/2504.00081
+ - https://arxiv.org/abs/2609.28382
+
  
  # License
 &nu;DoBe is published under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons NonCommercial-ShareAlike 4.0 International</a> (cc-by-nc-sa-4.0) license. In short, you are allowed to use, redistribute and change the source code as long as you make reference to our work. Additionally, &nu;DoBe is limited to non-commercial usage only. Though, if you find a commercial use-case we would be highly impressed.
